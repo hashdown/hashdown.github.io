@@ -47,7 +47,7 @@ class Base64Codec implements XCodec {
 }
 
 class Base64UrlCodec implements XCodec {
-  static String url = 'http://www.hashdown.net/#';
+  static String url = 'https://hashdown.github.io/#';
 
   List<int> decode(String str) {
     int pos = str.indexOf('#');
